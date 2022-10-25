@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+    background-image: linear-gradient(to right, #FFC0CB, #6acae2);
+}
+.container {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    text-transform: uppercase;
+    font-size: 10rem;
+    letter-spacing: 2rem;
+    padding-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.footer h2{
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    margin: 2rem 0 1rem 0;
+}
+
+p {
+    font-size: 2rem;
+}

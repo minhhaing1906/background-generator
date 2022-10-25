@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Color Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Background Generator</h1>
+        
+        <div class="input">
+            <input type="color" id="color1" value="#FFC0CB"></input>
+            <input type="color" id="color2" value="#6acae2"></input>
+            <button onclick="setBackground()">Random</button>
+        </div>
+        
+        <div class="footer">
+            <h2 >This is the background</h2>
+            <p id="color">linear-gradient(to right, #FFC0CB, #6acae2)</p>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
